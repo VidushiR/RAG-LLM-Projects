@@ -1,0 +1,50 @@
+# ----------------------------
+# Python / Jupyter
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+venv/
+.env
+
+# ----------------------------
+# Data (IMPORTANT)
+# ----------------------------
+# Ignore raw data contents but keep folder
+**/data/raw/*
+!**/data/raw/.gitkeep
+
+# Ignore chunked data contents but keep folder
+**/data/chunks/*
+!**/data/chunks/.gitkeep
+
+# Ignore processed data contents
+# Allow placeholders and small CSVs
+**/data/processed/*
+!**/data/processed/.gitkeep
+!**/data/processed/*.csv
+
+# ----------------------------
+# Models / Vector DB / Embeddings
+# ----------------------------
+**/models/
+
+# ----------------------------
+# Large generic files
+# ----------------------------
+*.parquet
+*.feather
+*.h5
+*.pkl
+*.joblib
+
+# ----------------------------
+# OS-specific
+# ----------------------------
+.DS_Store
+Thumbs.db
