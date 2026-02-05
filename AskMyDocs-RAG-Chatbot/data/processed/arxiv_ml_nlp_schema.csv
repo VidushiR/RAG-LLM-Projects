@@ -1,0 +1,21 @@
+column_name,data_type,non_null_count,null_count,description
+id,float64,76,0,arXiv paper identifier
+submitter,object,76,0,
+authors,object,76,0,Author names as a string
+title,object,76,0,Paper title
+comments,object,59,17,
+journal-ref,object,16,60,
+doi,object,8,68,
+report-no,object,2,74,
+categories,object,76,0,arXiv subject categories
+license,object,5,71,
+abstract,object,76,0,Abstract text used for retrieval
+versions,object,76,0,
+update_date,datetime64[ns],76,0,
+authors_parsed,object,76,0,
+abstract_len_chars,int64,76,0,Number of characters in abstract
+abstract_len_words,int64,76,0,Number of words in abstract
+categories_list,object,76,0,
+num_authors,int64,76,0,Number of authors
+has_doi,int32,76,0,Whether DOI is present (0/1)
+year,int32,76,0,Publication/update year

@@ -1,0 +1,974 @@
+id,submitter,authors,title,comments,journal-ref,doi,report-no,categories,license,abstract,versions,update_date,authors_parsed,abstract_len_chars,abstract_len_words,categories_list,num_authors,has_doi,year
+704.0047,Igor Grabec,T. Kosel and I. Grabec,"Intelligent location of simultaneously active acoustic emission sources:
+  Part I","5 pages, 5 eps figures, uses IEEEtran.cls",,,,cs.NE cs.AI,,"The intelligent acoustic emission locator is described in Part I, while Part
+II discusses blind source separation, time delay estimation and location of two
+simultaneously active continuous acoustic emission sources.
+  The location of acoustic emission on complicated aircraft frame structures is
+a difficult problem of non-destructive testing. This article describes an
+intelligent acoustic emission source locator. The intelligent locator comprises
+a sensor antenna and a general regression neural network, which solves the
+location problem based on learning from examples. Locator performance was
+tested on different test specimens. Tests have shown that the accuracy of
+location depends on sound velocity and attenuation in the specimen, the
+dimensions of the tested area, and the properties of stored data. The location
+accuracy achieved by the intelligent locator is comparable to that obtained by
+the conventional triangulation method, while the applicability of the
+intelligent locator is more general since analysis of sonic ray paths is
+avoided. This is a promising method for non-destructive testing of aircraft
+frame structures by the acoustic emission method.","[{'version': 'v1', 'created': 'Sun, 1 Apr 2007 13:06:50 GMT'}]",2009-09-29,"[['Kosel', 'T.', ''], ['Grabec', 'I.', '']]",1172,169,"['cs.NE', 'cs.AI']",1,0,2009
+704.005,Igor Grabec,T. Kosel and I. Grabec,"Intelligent location of simultaneously active acoustic emission sources:
+  Part II","5 pages, 7 eps figures, uses IEEEtran.cls",,,,cs.NE cs.AI,,"Part I describes an intelligent acoustic emission locator, while Part II
+discusses blind source separation, time delay estimation and location of two
+continuous acoustic emission sources.
+  Acoustic emission (AE) analysis is used for characterization and location of
+developing defects in materials. AE sources often generate a mixture of various
+statistically independent signals. A difficult problem of AE analysis is
+separation and characterization of signal components when the signals from
+various sources and the mode of mixing are unknown. Recently, blind source
+separation (BSS) by independent component analysis (ICA) has been used to solve
+these problems. The purpose of this paper is to demonstrate the applicability
+of ICA to locate two independent simultaneously active acoustic emission
+sources on an aluminum band specimen. The method is promising for
+non-destructive testing of aircraft frame structures by acoustic emission
+analysis.","[{'version': 'v1', 'created': 'Sun, 1 Apr 2007 18:53:13 GMT'}]",2007-05-23,"[['Kosel', 'T.', ''], ['Grabec', 'I.', '']]",950,136,"['cs.NE', 'cs.AI']",1,0,2007
+704.0304,Carlos Gershenson,Carlos Gershenson,The World as Evolving Information,"16 pages. Extended version, three more laws of information, two
+  classifications, and discussion added. To be published (soon) in
+  International Conference on Complex Systems 2007 Proceedings","Minai, A., Braha, D., and Bar-Yam, Y., eds. Unifying Themes in
+  Complex Systems VII, pp. 100-115. Springer, Berlin Heidelberg, 2012",10.1007/978-3-642-18003-3_10,,cs.IT cs.AI math.IT q-bio.PE,http://arxiv.org/licenses/nonexclusive-distrib/1.0/,"This paper discusses the benefits of describing the world as information,
+especially in the study of the evolution of life and cognition. Traditional
+studies encounter problems because it is difficult to describe life and
+cognition in terms of matter and energy, since their laws are valid only at the
+physical scale. However, if matter and energy, as well as life and cognition,
+are described in terms of information, evolution can be described consistently
+as information becoming more complex.
+  The paper presents eight tentative laws of information, valid at multiple
+scales, which are generalizations of Darwinian, cybernetic, thermodynamic,
+psychological, philosophical, and complexity principles. These are further used
+to discuss the notions of life, cognition and their evolution.","[{'version': 'v1', 'created': 'Tue, 3 Apr 2007 02:08:48 GMT'}, {'version': 'v2', 'created': 'Thu, 30 Aug 2007 20:03:59 GMT'}, {'version': 'v3', 'created': 'Wed, 13 Oct 2010 19:49:16 GMT'}]",2013-04-05,"[['Gershenson', 'Carlos', '']]",790,116,"['cs.IT', 'cs.AI', 'math.IT', 'q-bio.PE']",1,1,2013
+704.0671,Maxim Raginsky,Maxim Raginsky,Learning from compressed observations,"6 pages; submitted to the 2007 IEEE Information Theory Workshop (ITW
+  2007)",,10.1109/ITW.2007.4313111,,cs.IT cs.LG math.IT,,"The problem of statistical learning is to construct a predictor of a random
+variable $Y$ as a function of a related random variable $X$ on the basis of an
+i.i.d. training sample from the joint distribution of $(X,Y)$. Allowable
+predictors are drawn from some specified class, and the goal is to approach
+asymptotically the performance (expected loss) of the best predictor in the
+class. We consider the setting in which one has perfect observation of the
+$X$-part of the sample, while the $Y$-part has to be communicated at some
+finite bit rate. The encoding of the $Y$-values is allowed to depend on the
+$X$-values. Under suitable regularity conditions on the admissible predictors,
+the underlying family of probability distributions and the loss function, we
+give an information-theoretic characterization of achievable predictor
+performance in terms of conditional distortion-rate functions. The ideas are
+illustrated on the example of nonparametric regression in Gaussian noise.","[{'version': 'v1', 'created': 'Thu, 5 Apr 2007 02:57:15 GMT'}]",2016-11-15,"[['Raginsky', 'Maxim', '']]",982,150,"['cs.IT', 'cs.LG', 'math.IT']",1,1,2016
+704.0954,Jos\'e M. F. Moura,Soummya Kar and Jose M. F. Moura,"Sensor Networks with Random Links: Topology Design for Distributed
+  Consensus",Submitted to IEEE Transactions,,10.1109/TSP.2008.920143,,cs.IT cs.LG math.IT,,"In a sensor network, in practice, the communication among sensors is subject
+to:(1) errors or failures at random times; (3) costs; and(2) constraints since
+sensors and networks operate under scarce resources, such as power, data rate,
+or communication. The signal-to-noise ratio (SNR) is usually a main factor in
+determining the probability of error (or of communication failure) in a link.
+These probabilities are then a proxy for the SNR under which the links operate.
+The paper studies the problem of designing the topology, i.e., assigning the
+probabilities of reliable communication among sensors (or of link failures) to
+maximize the rate of convergence of average consensus, when the link
+communication costs are taken into account, and there is an overall
+communication budget constraint. To consider this problem, we address a number
+of preliminary issues: (1) model the network as a random topology; (2)
+establish necessary and sufficient conditions for mean square sense (mss) and
+almost sure (a.s.) convergence of average consensus when network links fail;
+and, in particular, (3) show that a necessary and sufficient condition for both
+mss and a.s. convergence is for the algebraic connectivity of the mean graph
+describing the network topology to be strictly positive. With these results, we
+formulate topology design, subject to random link failures and to a
+communication cost constraint, as a constrained convex optimization problem to
+which we apply semidefinite programming techniques. We show by an extensive
+numerical study that the optimal design improves significantly the convergence
+speed of the consensus algorithm and can achieve the asymptotic performance of
+a non-random network at a fraction of the communication cost.","[{'version': 'v1', 'created': 'Fri, 6 Apr 2007 21:58:52 GMT'}]",2009-11-13,"[['Kar', 'Soummya', ''], ['Moura', 'Jose M. F.', '']]",1748,266,"['cs.IT', 'cs.LG', 'math.IT']",1,1,2009
+704.0985,Mohd Abubakr,"Mohd Abubakr, R.M.Vinay",Architecture for Pseudo Acausal Evolvable Embedded Systems,"4 pages, 2 figures. Submitted to SASO 2007",,,,cs.NE cs.AI,,"Advances in semiconductor technology are contributing to the increasing
+complexity in the design of embedded systems. Architectures with novel
+techniques such as evolvable nature and autonomous behavior have engrossed lot
+of attention. This paper demonstrates conceptually evolvable embedded systems
+can be characterized basing on acausal nature. It is noted that in acausal
+systems, future input needs to be known, here we make a mechanism such that the
+system predicts the future inputs and exhibits pseudo acausal nature. An
+embedded system that uses theoretical framework of acausality is proposed. Our
+method aims at a novel architecture that features the hardware evolability and
+autonomous behavior alongside pseudo acausality. Various aspects of this
+architecture are discussed in detail along with the limitations.","[{'version': 'v1', 'created': 'Sat, 7 Apr 2007 13:40:49 GMT'}]",2007-05-23,"[['Abubakr', 'Mohd', ''], ['Vinay', 'R. M.', '']]",823,119,"['cs.NE', 'cs.AI']",2,0,2007
+704.102,Gyorgy Ottucsak,"Andras Gyorgy, Tamas Linder, Gabor Lugosi, Gyorgy Ottucsak",The on-line shortest path problem under partial monitoring,35 pages,,,,cs.LG cs.SC,,"The on-line shortest path problem is considered under various models of
+partial monitoring. Given a weighted directed acyclic graph whose edge weights
+can change in an arbitrary (adversarial) way, a decision maker has to choose in
+each round of a game a path between two distinguished vertices such that the
+loss of the chosen path (defined as the sum of the weights of its composing
+edges) be as small as possible. In a setting generalizing the multi-armed
+bandit problem, after choosing a path, the decision maker learns only the
+weights of those edges that belong to the chosen path. For this problem, an
+algorithm is given whose average cumulative loss in n rounds exceeds that of
+the best path, matched off-line to the entire sequence of the edge weights, by
+a quantity that is proportional to 1/\sqrt{n} and depends only polynomially on
+the number of edges of the graph. The algorithm can be implemented with linear
+complexity in the number of rounds n and in the number of edges. An extension
+to the so-called label efficient setting is also given, in which the decision
+maker is informed about the weights of the edges corresponding to the chosen
+path at a total of m << n time instances. Another extension is shown where the
+decision maker competes against a time-varying path, a generalization of the
+problem of tracking the best expert. A version of the multi-armed bandit
+setting for shortest path is also discussed where the decision maker learns
+only the total weight of the chosen path but not the weights of the individual
+edges on the path. Applications to routing in packet switched networks along
+with simulation results are also presented.","[{'version': 'v1', 'created': 'Sun, 8 Apr 2007 10:15:54 GMT'}]",2007-05-23,"[['Gyorgy', 'Andras', ''], ['Linder', 'Tamas', ''], ['Lugosi', 'Gabor', ''], ['Ottucsak', 'Gyorgy', '']]",1659,281,"['cs.LG', 'cs.SC']",4,0,2007
+704.1028,Jianlin Cheng,Jianlin Cheng,A neural network approach to ordinal regression,8 pages,,,,cs.LG cs.AI cs.NE,,"Ordinal regression is an important type of learning, which has properties of
+both classification and regression. Here we describe a simple and effective
+approach to adapt a traditional neural network to learn ordinal categories. Our
+approach is a generalization of the perceptron method for ordinal regression.
+On several benchmark datasets, our method (NNRank) outperforms a neural network
+classification method. Compared with the ordinal regression methods using
+Gaussian processes and support vector machines, NNRank achieves comparable
+performance. Moreover, NNRank has the advantages of traditional neural
+networks: learning in both online and batch modes, handling very large training
+datasets, and making rapid predictions. These features make NNRank a useful and
+complementary tool for large-scale data processing tasks such as information
+retrieval, web page ranking, collaborative filtering, and protein ranking in
+Bioinformatics.","[{'version': 'v1', 'created': 'Sun, 8 Apr 2007 17:36:00 GMT'}]",2007-05-23,"[['Cheng', 'Jianlin', '']]",940,129,"['cs.LG', 'cs.AI', 'cs.NE']",1,0,2007
+704.1274,Dev Rajnarayan,David H. Wolpert and Dev G. Rajnarayan,Parametric Learning and Monte Carlo Optimization,,,,,cs.LG,,"This paper uncovers and explores the close relationship between Monte Carlo
+Optimization of a parametrized integral (MCO), Parametric machine-Learning
+(PL), and `blackbox' or `oracle'-based optimization (BO). We make four
+contributions. First, we prove that MCO is mathematically identical to a broad
+class of PL problems. This identity potentially provides a new application
+domain for all broadly applicable PL techniques: MCO. Second, we introduce
+immediate sampling, a new version of the Probability Collectives (PC) algorithm
+for blackbox optimization. Immediate sampling transforms the original BO
+problem into an MCO problem. Accordingly, by combining these first two
+contributions, we can apply all PL techniques to BO. In our third contribution
+we validate this way of improving BO by demonstrating that cross-validation and
+bagging improve immediate sampling. Finally, conventional MC and MCO procedures
+ignore the relationship between the sample point locations and the associated
+values of the integrand; only the values of the integrand at those locations
+are considered. We demonstrate that one can exploit the sample location
+information using PL techniques, for example by forming a fit of the sample
+locations to the associated values of the integrand. This provides an
+additional way to apply PL techniques to improve MCO.","[{'version': 'v1', 'created': 'Tue, 10 Apr 2007 17:01:07 GMT'}]",2011-11-09,"[['Wolpert', 'David H.', ''], ['Rajnarayan', 'Dev G.', '']]",1340,197,['cs.LG'],1,0,2011
+704.1394,Tarik Had\v{z}i\'c,"Tarik Hadzic, Rune Moller Jensen, Henrik Reif Andersen",Calculating Valid Domains for BDD-Based Interactive Configuration,,,,,cs.AI,,"In these notes we formally describe the functionality of Calculating Valid
+Domains from the BDD representing the solution space of valid configurations.
+The formalization is largely based on the CLab configuration framework.","[{'version': 'v1', 'created': 'Wed, 11 Apr 2007 10:59:56 GMT'}]",2007-05-23,"[['Hadzic', 'Tarik', ''], ['Jensen', 'Rune Moller', ''], ['Andersen', 'Henrik Reif', '']]",224,32,['cs.AI'],3,0,2007
+704.1409,Yao Hengshuai,Yao HengShuai,Preconditioned Temporal Difference Learning,"This paper has been withdrawn by the author. Look at the ICML version
+  instead: http://icml2008.cs.helsinki.fi/papers/111.pdf",,,,cs.LG cs.AI,,"This paper has been withdrawn by the author. This draft is withdrawn for its
+poor quality in english, unfortunately produced by the author when he was just
+starting his science route. Look at the ICML version instead:
+http://icml2008.cs.helsinki.fi/papers/111.pdf","[{'version': 'v1', 'created': 'Wed, 11 Apr 2007 13:17:01 GMT'}, {'version': 'v2', 'created': 'Thu, 12 Apr 2007 03:33:26 GMT'}, {'version': 'v3', 'created': 'Fri, 8 Jun 2012 14:08:19 GMT'}]",2012-06-11,"[['HengShuai', 'Yao', '']]",263,38,"['cs.LG', 'cs.AI']",1,0,2012
+704.1675,Kristina Lerman,Anon Plangprasopchok and Kristina Lerman,Exploiting Social Annotation for Automatic Resource Discovery,"6 pages, submitted to AAAI07 workshop on Information Integration on
+  the Web",,,,cs.AI cs.CY cs.DL,,"Information integration applications, such as mediators or mashups, that
+require access to information resources currently rely on users manually
+discovering and integrating them in the application. Manual resource discovery
+is a slow process, requiring the user to sift through results obtained via
+keyword-based search. Although search methods have advanced to include evidence
+from document contents, its metadata and the contents and link structure of the
+referring pages, they still do not adequately cover information sources --
+often called ``the hidden Web''-- that dynamically generate documents in
+response to a query. The recently popular social bookmarking sites, which allow
+users to annotate and share metadata about various information sources, provide
+rich evidence for resource discovery. In this paper, we describe a
+probabilistic model of the user annotation process in a social bookmarking
+system del.icio.us. We then use the model to automatically find resources
+relevant to a particular information domain. Our experimental results on data
+obtained from \emph{del.icio.us} show this approach as a promising method for
+helping automate the resource discovery task.","[{'version': 'v1', 'created': 'Thu, 12 Apr 2007 23:24:19 GMT'}]",2016-09-08,"[['Plangprasopchok', 'Anon', ''], ['Lerman', 'Kristina', '']]",1185,170,"['cs.AI', 'cs.CY', 'cs.DL']",1,0,2016
+704.1676,Kristina Lerman,"Kristina Lerman, Anon Plangprasopchok and Chio Wong",Personalizing Image Search Results on Flickr,"12 pages, submitted to AAAI07 workshop on Intelligent Information
+  Personalization",,,,cs.IR cs.AI cs.CY cs.DL cs.HC,,"The social media site Flickr allows users to upload their photos, annotate
+them with tags, submit them to groups, and also to form social networks by
+adding other users as contacts. Flickr offers multiple ways of browsing or
+searching it. One option is tag search, which returns all images tagged with a
+specific keyword. If the keyword is ambiguous, e.g., ``beetle'' could mean an
+insect or a car, tag search results will include many images that are not
+relevant to the sense the user had in mind when executing the query. We claim
+that users express their photography interests through the metadata they add in
+the form of contacts and image annotations. We show how to exploit this
+metadata to personalize search results for the user, thereby improving search
+performance. First, we show that we can significantly improve search precision
+by filtering tag search results by user's contacts or a larger social network
+that includes those contact's contacts. Secondly, we describe a probabilistic
+model that takes advantage of tag information to discover latent topics
+contained in the search results. The users' interests can similarly be
+described by the tags they used for annotating their images. The latent topics
+found by the model are then used to personalize search results by finding
+images on topics that are of interest to the user.","[{'version': 'v1', 'created': 'Thu, 12 Apr 2007 23:31:04 GMT'}]",2007-05-23,"[['Lerman', 'Kristina', ''], ['Plangprasopchok', 'Anon', ''], ['Wong', 'Chio', '']]",1345,221,"['cs.IR', 'cs.AI', 'cs.CY', 'cs.DL', 'cs.HC']",2,0,2007
+704.1783,Francesco Santini,"Stefano Bistarelli, Ugo Montanari, Francesca Rossi, Francesco Santini",Unicast and Multicast Qos Routing with Soft Constraint Logic Programming,45 pages,,,,cs.LO cs.AI cs.NI,,"We present a formal model to represent and solve the unicast/multicast
+routing problem in networks with Quality of Service (QoS) requirements. To
+attain this, first we translate the network adapting it to a weighted graph
+(unicast) or and-or graph (multicast), where the weight on a connector
+corresponds to the multidimensional cost of sending a packet on the related
+network link: each component of the weights vector represents a different QoS
+metric value (e.g. bandwidth, cost, delay, packet loss). The second step
+consists in writing this graph as a program in Soft Constraint Logic
+Programming (SCLP): the engine of this framework is then able to find the best
+paths/trees by optimizing their costs and solving the constraints imposed on
+them (e.g. delay < 40msec), thus finding a solution to QoS routing problems.
+Moreover, c-semiring structures are a convenient tool to model QoS metrics. At
+last, we provide an implementation of the framework over scale-free networks
+and we suggest how the performance can be improved.","[{'version': 'v1', 'created': 'Fri, 13 Apr 2007 15:53:44 GMT'}, {'version': 'v2', 'created': 'Sun, 29 Apr 2007 15:40:10 GMT'}, {'version': 'v3', 'created': 'Mon, 21 Apr 2008 17:25:06 GMT'}]",2009-09-29,"[['Bistarelli', 'Stefano', ''], ['Montanari', 'Ugo', ''], ['Rossi', 'Francesca', ''], ['Santini', 'Francesco', '']]",1029,163,"['cs.LO', 'cs.AI', 'cs.NI']",4,0,2009
+704.201,Juliana Bernardes,"Juliana S Bernardes, Alberto Davila, Vitor Santos Costa, Gerson
+  Zaverucha",A study of structural properties on profiles HMMs,"6 pages, 7 figures",,,,cs.AI,http://arxiv.org/licenses/nonexclusive-distrib/1.0/,"Motivation: Profile hidden Markov Models (pHMMs) are a popular and very
+useful tool in the detection of the remote homologue protein families.
+Unfortunately, their performance is not always satisfactory when proteins are
+in the 'twilight zone'. We present HMMER-STRUCT, a model construction algorithm
+and tool that tries to improve pHMM performance by using structural information
+while training pHMMs. As a first step, HMMER-STRUCT constructs a set of pHMMs.
+Each pHMM is constructed by weighting each residue in an aligned protein
+according to a specific structural property of the residue. Properties used
+were primary, secondary and tertiary structures, accessibility and packing.
+HMMER-STRUCT then prioritizes the results by voting. Results: We used the SCOP
+database to perform our experiments. Throughout, we apply leave-one-family-out
+cross-validation over protein superfamilies. First, we used the MAMMOTH-mult
+structural aligner to align the training set proteins. Then, we performed two
+sets of experiments. In a first experiment, we compared structure weighted
+models against standard pHMMs and against each other. In a second experiment,
+we compared the voting model against individual pHMMs. We compare method
+performance through ROC curves and through Precision/Recall curves, and assess
+significance through the paired two tailed t-test. Our results show significant
+performance improvements of all structurally weighted models over default
+HMMER, and a significant improvement in sensitivity of the combined models over
+both the original model and the structurally weighted models.","[{'version': 'v1', 'created': 'Mon, 16 Apr 2007 13:10:35 GMT'}, {'version': 'v2', 'created': 'Thu, 11 Dec 2008 18:47:26 GMT'}]",2008-12-11,"[['Bernardes', 'Juliana S', ''], ['Davila', 'Alberto', ''], ['Costa', 'Vitor Santos', ''], ['Zaverucha', 'Gerson', '']]",1598,227,['cs.AI'],4,0,2008
+704.2083,Hassan Satori,"H. Satori, M. Harti and N. Chenfour",Introduction to Arabic Speech Recognition Using CMUSphinx System,"4 pages, 3 figures and 2 tables, was in Information and Communication
+  Technologies International Symposium proceeding ICTIS07 Fes (2007)",,,,cs.CL cs.AI,,"In this paper Arabic was investigated from the speech recognition problem
+point of view. We propose a novel approach to build an Arabic Automated Speech
+Recognition System (ASR). This system is based on the open source CMU Sphinx-4,
+from the Carnegie Mellon University. CMU Sphinx is a large-vocabulary;
+speaker-independent, continuous speech recognition system based on discrete
+Hidden Markov Models (HMMs). We build a model using utilities from the
+OpenSource CMU Sphinx. We will demonstrate the possible adaptability of this
+system to Arabic voice recognition.","[{'version': 'v1', 'created': 'Tue, 17 Apr 2007 01:04:01 GMT'}]",2007-05-23,"[['Satori', 'H.', ''], ['Harti', 'M.', ''], ['Chenfour', 'N.', '']]",563,84,"['cs.CL', 'cs.AI']",2,0,2007
+704.2092,Jinsong Tan,Jinsong Tan,A Note on the Inapproximability of Correlation Clustering,,"Information Processing Letters, 108: 331-335, 2008",,,cs.LG cs.DS,http://arxiv.org/licenses/nonexclusive-distrib/1.0/,"We consider inapproximability of the correlation clustering problem defined
+as follows: Given a graph $G = (V,E)$ where each edge is labeled either ""+""
+(similar) or ""-"" (dissimilar), correlation clustering seeks to partition the
+vertices into clusters so that the number of pairs correctly (resp.
+incorrectly) classified with respect to the labels is maximized (resp.
+minimized). The two complementary problems are called MaxAgree and MinDisagree,
+respectively, and have been studied on complete graphs, where every edge is
+labeled, and general graphs, where some edge might not have been labeled.
+Natural edge-weighted versions of both problems have been studied as well. Let
+S-MaxAgree denote the weighted problem where all weights are taken from set S,
+we show that S-MaxAgree with weights bounded by $O(|V|^{1/2-\delta})$
+essentially belongs to the same hardness class in the following sense: if there
+is a polynomial time algorithm that approximates S-MaxAgree within a factor of
+$\lambda = O(\log{|V|})$ with high probability, then for any choice of S',
+S'-MaxAgree can be approximated in polynomial time within a factor of $(\lambda
++ \epsilon)$, where $\epsilon > 0$ can be arbitrarily small, with high
+probability. A similar statement also holds for $S-MinDisagree. This result
+implies it is hard (assuming $NP \neq RP$) to approximate unweighted MaxAgree
+within a factor of $80/79-\epsilon$, improving upon a previous known factor of
+$116/115-\epsilon$ by Charikar et. al. \cite{Chari05}.","[{'version': 'v1', 'created': 'Tue, 17 Apr 2007 03:52:41 GMT'}, {'version': 'v2', 'created': 'Mon, 23 Mar 2009 03:22:02 GMT'}]",2009-03-23,"[['Tan', 'Jinsong', '']]",1498,224,"['cs.LG', 'cs.DS']",1,0,2009
+704.2201,Hassan Satori,"H. Satori, M. Harti and N. Chenfour",Arabic Speech Recognition System using CMU-Sphinx4,"5 pages, 3 figures and 2 tables, in French",,,,cs.CL cs.AI,,"In this paper we present the creation of an Arabic version of Automated
+Speech Recognition System (ASR). This system is based on the open source
+Sphinx-4, from the Carnegie Mellon University. Which is a speech recognition
+system based on discrete hidden Markov models (HMMs). We investigate the
+changes that must be made to the model to adapt Arabic voice recognition.
+  Keywords: Speech recognition, Acoustic model, Arabic language, HMMs,
+CMUSphinx-4, Artificial intelligence.","[{'version': 'v1', 'created': 'Tue, 17 Apr 2007 17:04:26 GMT'}]",2007-05-23,"[['Satori', 'H.', ''], ['Harti', 'M.', ''], ['Chenfour', 'N.', '']]",477,71,"['cs.CL', 'cs.AI']",2,0,2007
+704.2644,Maxim Raginsky,Maxim Raginsky,"Joint universal lossy coding and identification of stationary mixing
+  sources","5 pages, 1 eps figure; to appear in Proc. ISIT 2007",,,,cs.IT cs.LG math.IT,,"The problem of joint universal source coding and modeling, treated in the
+context of lossless codes by Rissanen, was recently generalized to fixed-rate
+lossy coding of finitely parametrized continuous-alphabet i.i.d. sources. We
+extend these results to variable-rate lossy block coding of stationary ergodic
+sources and show that, for bounded metric distortion measures, any finitely
+parametrized family of stationary sources satisfying suitable mixing,
+smoothness and Vapnik-Chervonenkis learnability conditions admits universal
+schemes for joint lossy source coding and identification. We also give several
+explicit examples of parametric sources satisfying the regularity conditions.","[{'version': 'v1', 'created': 'Fri, 20 Apr 2007 01:25:22 GMT'}]",2007-07-13,"[['Raginsky', 'Maxim', '']]",686,90,"['cs.IT', 'cs.LG', 'math.IT']",1,0,2007
+704.2668,Alex Smola J,"Le Song, Alex Smola, Arthur Gretton, Karsten Borgwardt, Justin Bedo",Supervised Feature Selection via Dependence Estimation,9 pages,,,,cs.LG,,"We introduce a framework for filtering features that employs the
+Hilbert-Schmidt Independence Criterion (HSIC) as a measure of dependence
+between the features and the labels. The key idea is that good features should
+maximise such dependence. Feature selection for various supervised learning
+problems (including classification and regression) is unified under this
+framework, and the solutions can be approximated using a backward-elimination
+algorithm. We demonstrate the usefulness of our method on both artificial and
+real world datasets.","[{'version': 'v1', 'created': 'Fri, 20 Apr 2007 08:26:29 GMT'}]",2007-05-23,"[['Song', 'Le', ''], ['Smola', 'Alex', ''], ['Gretton', 'Arthur', ''], ['Borgwardt', 'Karsten', ''], ['Bedo', 'Justin', '']]",542,76,['cs.LG'],5,0,2007
+704.3157,Giorgio Terracina,"Giorgio Terracina, Nicola Leone, Vincenzino Lio, Claudio Panetta","Experimenting with recursive queries in database and logic programming
+  systems",To appear in Theory and Practice of Logic Programming (TPLP),,,,cs.AI cs.DB,,"This paper considers the problem of reasoning on massive amounts of (possibly
+distributed) data. Presently, existing proposals show some limitations: {\em
+(i)} the quantity of data that can be handled contemporarily is limited, due to
+the fact that reasoning is generally carried out in main-memory; {\em (ii)} the
+interaction with external (and independent) DBMSs is not trivial and, in
+several cases, not allowed at all; {\em (iii)} the efficiency of present
+implementations is still not sufficient for their utilization in complex
+reasoning tasks involving massive amounts of data. This paper provides a
+contribution in this setting; it presents a new system, called DLV$^{DB}$,
+which aims to solve these problems. Moreover, the paper reports the results of
+a thorough experimental analysis we have carried out for comparing our system
+with several state-of-the-art systems (both logic and databases) on some
+classical deductive problems; the other tested systems are: LDL++, XSB, Smodels
+and three top-level commercial DBMSs. DLV$^{DB}$ significantly outperforms even
+the commercial Database Systems on recursive queries. To appear in Theory and
+Practice of Logic Programming (TPLP)","[{'version': 'v1', 'created': 'Tue, 24 Apr 2007 10:58:40 GMT'}]",2007-05-23,"[['Terracina', 'Giorgio', ''], ['Leone', 'Nicola', ''], ['Lio', 'Vincenzino', ''], ['Panetta', 'Claudio', '']]",1186,175,"['cs.AI', 'cs.DB']",4,0,2007
+704.3359,Alex Smola J,Quoc Le and Alexander Smola,Direct Optimization of Ranking Measures,,,,,cs.IR cs.AI,,"Web page ranking and collaborative filtering require the optimization of
+sophisticated performance measures. Current Support Vector approaches are
+unable to optimize them directly and focus on pairwise comparisons instead. We
+present a new approach which allows direct optimization of the relevant loss
+functions. This is achieved via structured estimation in Hilbert spaces. It is
+most related to Max-Margin-Markov networks optimization of multivariate
+performance measures. Key to our approach is that during training the ranking
+problem can be viewed as a linear assignment problem, which can be solved by
+the Hungarian Marriage algorithm. At test time, a sort operation is sufficient,
+as our algorithm assigns a relevance score to every (document, query) pair.
+Experiments show that the our algorithm is fast and that it works very well.","[{'version': 'v1', 'created': 'Wed, 25 Apr 2007 12:36:55 GMT'}]",2007-05-23,"[['Le', 'Quoc', ''], ['Smola', 'Alexander', '']]",841,126,"['cs.IR', 'cs.AI']",1,0,2007
+704.3395,Marko A. Rodriguez,Marko A. Rodriguez,General-Purpose Computing on a Semantic Network Substrate,,"Emergent Web Intelligence: Advanced Semantic Technologies,
+  Advanced Information and Knowledge Processing series, Springer-Verlag, pages
+  57-104, ISBN:978-1-84996-076-2, June 2010",,LA-UR-07-2885,cs.AI cs.PL,http://creativecommons.org/licenses/publicdomain/,"This article presents a model of general-purpose computing on a semantic
+network substrate. The concepts presented are applicable to any semantic
+network representation. However, due to the standards and technological
+infrastructure devoted to the Semantic Web effort, this article is presented
+from this point of view. In the proposed model of computing, the application
+programming interface, the run-time program, and the state of the computing
+virtual machine are all represented in the Resource Description Framework
+(RDF). The implementation of the concepts presented provides a practical
+computing paradigm that leverages the highly-distributed and standardized
+representational-layer of the Semantic Web.","[{'version': 'v1', 'created': 'Wed, 25 Apr 2007 15:37:52 GMT'}, {'version': 'v2', 'created': 'Thu, 4 Oct 2007 20:08:21 GMT'}, {'version': 'v3', 'created': 'Sun, 7 Oct 2007 21:44:01 GMT'}, {'version': 'v4', 'created': 'Sun, 6 Jun 2010 05:29:22 GMT'}]",2010-06-08,"[['Rodriguez', 'Marko A.', '']]",712,98,"['cs.AI', 'cs.PL']",1,0,2010
+704.3433,Tshilidzi Marwala,Tshilidzi Marwala and Bodie Crossingham,Bayesian approach to rough set,"20 pages, 3 figures",,,,cs.AI,,"This paper proposes an approach to training rough set models using Bayesian
+framework trained using Markov Chain Monte Carlo (MCMC) method. The prior
+probabilities are constructed from the prior knowledge that good rough set
+models have fewer rules. Markov Chain Monte Carlo sampling is conducted through
+sampling in the rough set granule space and Metropolis algorithm is used as an
+acceptance criteria. The proposed method is tested to estimate the risk of HIV
+given demographic data. The results obtained shows that the proposed approach
+is able to achieve an average accuracy of 58% with the accuracy varying up to
+66%. In addition the Bayesian rough set give the probabilities of the estimated
+HIV status as well as the linguistic rules describing how the demographic
+parameters drive the risk of HIV.","[{'version': 'v1', 'created': 'Wed, 25 Apr 2007 19:50:59 GMT'}]",2007-05-23,"[['Marwala', 'Tshilidzi', ''], ['Crossingham', 'Bodie', '']]",806,130,['cs.AI'],1,0,2007
+704.3453,Tshilidzi Marwala,"S. Mohamed, D. Rubin, and T. Marwala","An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors","9 pages, 5 tables, 3 figures",,,,cs.AI q-bio.QM,,"One of the major problems in computational biology is the inability of
+existing classification models to incorporate expanding and new domain
+knowledge. This problem of static classification models is addressed in this
+paper by the introduction of incremental learning for problems in
+bioinformatics. Many machine learning tools have been applied to this problem
+using static machine learning structures such as neural networks or support
+vector machines that are unable to accommodate new information into their
+existing models. We utilize the fuzzy ARTMAP as an alternate machine learning
+system that has the ability of incrementally learning new data as it becomes
+available. The fuzzy ARTMAP is found to be comparable to many of the widespread
+machine learning systems. The use of an evolutionary strategy in the selection
+and combination of individual classifiers into an ensemble system, coupled with
+the incremental learning ability of the fuzzy ARTMAP is proven to be suitable
+as a pattern classifier. The algorithm presented is tested using data from the
+G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system
+presented is also generally applicable, and can be used in problems in genomics
+and proteomics.","[{'version': 'v1', 'created': 'Wed, 25 Apr 2007 21:23:31 GMT'}]",2007-06-25,"[['Mohamed', 'S.', ''], ['Rubin', 'D.', ''], ['Marwala', 'T.', '']]",1239,190,"['cs.AI', 'q-bio.QM']",3,0,2007
+704.3515,Jegor Uglov Mr,"J. Uglov, V. Schetinin, C. Maple","Comparing Robustness of Pairwise and Multiclass Neural-Network Systems
+  for Face Recognition",,,10.1155/2008/468693,,cs.AI,,"Noise, corruptions and variations in face images can seriously hurt the
+performance of face recognition systems. To make such systems robust,
+multiclass neuralnetwork classifiers capable of learning from noisy data have
+been suggested. However on large face data sets such systems cannot provide the
+robustness at a high level. In this paper we explore a pairwise neural-network
+system as an alternative approach to improving the robustness of face
+recognition. In our experiments this approach is shown to outperform the
+multiclass neural-network system in terms of the predictive accuracy on the
+face images corrupted by noise.","[{'version': 'v1', 'created': 'Thu, 26 Apr 2007 11:29:19 GMT'}]",2016-02-17,"[['Uglov', 'J.', ''], ['Schetinin', 'V.', ''], ['Maple', 'C.', '']]",629,95,['cs.AI'],3,1,2016
+704.3662,Tian-Jian Jiang,"Mike Tian-Jian Jiang, James Zhan, Jaimie Lin, Jerry Lin, Wen-Lien Hsu",An Automated Evaluation Metric for Chinese Text Entry,8 pages,"Jiang, Mike Tian-Jian, et al. ""Robustness analysis of adaptive
+  chinese input methods."" Advances in Text Input Methods (WTIM 2011) (2011): 53",,,cs.HC cs.CL,,"In this paper, we propose an automated evaluation metric for text entry. We
+also consider possible improvements to existing text entry evaluation metrics,
+such as the minimum string distance error rate, keystrokes per character, cost
+per correction, and a unified approach proposed by MacKenzie, so they can
+accommodate the special characteristics of Chinese text. Current methods lack
+an integrated concern about both typing speed and accuracy for Chinese text
+entry evaluation. Our goal is to remove the bias that arises due to human
+factors. First, we propose a new metric, called the correction penalty (P),
+based on Fitts' law and Hick's law. Next, we transform it into the approximate
+amortized cost (AAC) of information theory. An analysis of the AAC of Chinese
+text input methods with different context lengths is also presented.","[{'version': 'v1', 'created': 'Fri, 27 Apr 2007 05:34:10 GMT'}]",2013-10-29,"[['Jiang', 'Mike Tian-Jian', ''], ['Zhan', 'James', ''], ['Lin', 'Jaimie', ''], ['Lin', 'Jerry', ''], ['Hsu', 'Wen-Lien', '']]",837,132,"['cs.HC', 'cs.CL']",5,0,2013
+704.3665,Tian-Jian Jiang,"Mike Tian-Jian Jiang, Deng Liu, Meng-Juei Hsieh, Wen-Lien Hsu",On the Development of Text Input Method - Lessons Learned,10 pages,,,,cs.CL cs.HC,,"Intelligent Input Methods (IM) are essential for making text entries in many
+East Asian scripts, but their application to other languages has not been fully
+explored. This paper discusses how such tools can contribute to the development
+of computer processing of other oriental languages. We propose a design
+philosophy that regards IM as a text service platform, and treats the study of
+IM as a cross disciplinary subject from the perspectives of software
+engineering, human-computer interaction (HCI), and natural language processing
+(NLP). We discuss these three perspectives and indicate a number of possible
+future research directions.","[{'version': 'v1', 'created': 'Fri, 27 Apr 2007 05:58:32 GMT'}]",2007-05-23,"[['Jiang', 'Mike Tian-Jian', ''], ['Liu', 'Deng', ''], ['Hsieh', 'Meng-Juei', ''], ['Hsu', 'Wen-Lien', '']]",640,96,"['cs.CL', 'cs.HC']",4,0,2007
+704.3708,Bernat Corominas-Murtra BCM,Bernat Corominas-Murtra,Network statistics on early English Syntax: Structural criteria,"New abstract. Due to a mistake, abstract from V1 was from an old,
+  draft version of the work. The content of the paper is exactly the same,
+  except on section ""measures"" where a new cite has been added. 28 pag",,,,cs.CL,,"This paper includes a reflection on the role of networks in the study of
+English language acquisition, as well as a collection of practical criteria to
+annotate free-speech corpora from children utterances. At the theoretical
+level, the main claim of this paper is that syntactic networks should be
+interpreted as the outcome of the use of the syntactic machinery. Thus, the
+intrinsic features of such machinery are not accessible directly from (known)
+network properties. Rather, what one can see are the global patterns of its use
+and, thus, a global view of the power and organization of the underlying
+grammar. Taking a look into more practical issues, the paper examines how to
+build a net from the projection of syntactic relations. Recall that, as opposed
+to adult grammars, early-child language has not a well-defined concept of
+structure. To overcome such difficulty, we develop a set of systematic criteria
+assuming constituency hierarchy and a grammar based on lexico-thematic
+relations. At the end, what we obtain is a well defined corpora annotation that
+enables us i) to perform statistics on the size of structures and ii) to build
+a network from syntactic relations over which we can perform the standard
+measures of complexity. We also provide a detailed example.","[{'version': 'v1', 'created': 'Fri, 27 Apr 2007 17:13:37 GMT'}, {'version': 'v2', 'created': 'Mon, 30 Apr 2007 10:06:50 GMT'}]",2007-05-23,"[['Corominas-Murtra', 'Bernat', '']]",1280,207,['cs.CL'],1,0,2007
+704.3886,W Saba,Walid S. Saba,A Note on Ontology and Ordinary Language,"19 pages, 1 figure",,,,cs.AI cs.CL,,"We argue for a compositional semantics grounded in a strongly typed ontology
+that reflects our commonsense view of the world and the way we talk about it.
+Assuming such a structure we show that the semantics of various natural
+language phenomena may become nearly trivial.","[{'version': 'v1', 'created': 'Mon, 30 Apr 2007 17:55:39 GMT'}, {'version': 'v2', 'created': 'Tue, 1 May 2007 13:43:32 GMT'}, {'version': 'v3', 'created': 'Wed, 2 May 2007 18:13:22 GMT'}, {'version': 'v4', 'created': 'Thu, 3 May 2007 08:34:47 GMT'}, {'version': 'v5', 'created': 'Fri, 4 May 2007 17:49:03 GMT'}, {'version': 'v6', 'created': 'Mon, 7 May 2007 16:04:50 GMT'}]",2007-05-23,"[['Saba', 'Walid S.', '']]",272,45,"['cs.AI', 'cs.CL']",1,0,2007
+704.3905,Marc Schoenauer,"Christian Gagn\'e (INFORMATIQUE WGZ INC.), Mich\`ele Sebag (INRIA
+  Futurs), Marc Schoenauer (INRIA Futurs), Marco Tomassini (ISI)",Ensemble Learning for Free with Evolutionary Algorithms ?,,Dans GECCO (2007),,,cs.AI,,"Evolutionary Learning proceeds by evolving a population of classifiers, from
+which it generally returns (with some notable exceptions) the single
+best-of-run classifier as final result. In the meanwhile, Ensemble Learning,
+one of the most efficient approaches in supervised Machine Learning for the
+last decade, proceeds by building a population of diverse classifiers. Ensemble
+Learning with Evolutionary Computation thus receives increasing attention. The
+Evolutionary Ensemble Learning (EEL) approach presented in this paper features
+two contributions. First, a new fitness function, inspired by co-evolution and
+enforcing the classifier diversity, is presented. Further, a new selection
+criterion based on the classification margin is proposed. This criterion is
+used to extract the classifier ensemble from the final population only
+(Off-line) or incrementally along evolution (On-line). Experiments on a set of
+benchmark problems show that Off-line outperforms single-hypothesis
+evolutionary learning and state-of-art Boosting and generates smaller
+classifier ensembles.","[{'version': 'v1', 'created': 'Mon, 30 Apr 2007 09:29:22 GMT'}]",2007-05-23,"[['Gagné', 'Christian', '', 'INFORMATIQUE WGZ INC.'], ['Sebag', 'Michèle', '', 'INRIA\n  Futurs'], ['Schoenauer', 'Marc', '', 'INRIA Futurs'], ['Tomassini', 'Marco', '', 'ISI']]",1076,143,['cs.AI'],4,0,2007
+705.0025,Andreas Martin Lisewski,Andreas Martin Lisewski,Can the Internet cope with stress?,4 pages,,,,cs.HC cs.AI,,"When will the Internet become aware of itself? In this note the problem is
+approached by asking an alternative question: Can the Internet cope with
+stress? By extrapolating the psychological difference between coping and
+defense mechanisms a distributed software experiment is outlined which could
+reject the hypothesis that the Internet is not a conscious entity.","[{'version': 'v1', 'created': 'Tue, 1 May 2007 15:44:17 GMT'}]",2007-05-23,"[['Lisewski', 'Andreas Martin', '']]",364,55,"['cs.HC', 'cs.AI']",1,0,2007
+705.0197,Tshilidzi Marwala,"Tshilidzi Marwala, Unathi Mahola and Snehashish Chakraverty","Fault Classification in Cylinders Using Multilayer Perceptrons, Support
+  Vector Machines and Guassian Mixture Models","10 pages, 2 figures, 4 tables","Computer Assisted Mechanics and Engineering Sciences, Vol. 14, No.
+  2, 2007.",,,cs.AI,,"Gaussian mixture models (GMM) and support vector machines (SVM) are
+introduced to classify faults in a population of cylindrical shells. The
+proposed procedures are tested on a population of 20 cylindrical shells and
+their performance is compared to the procedure, which uses multi-layer
+perceptrons (MLP). The modal properties extracted from vibration data are used
+to train the GMM, SVM and MLP. It is observed that the GMM produces 98%, SVM
+produces 94% classification accuracy while the MLP produces 88% classification
+rates.","[{'version': 'v1', 'created': 'Wed, 2 May 2007 03:13:28 GMT'}]",2007-05-23,"[['Marwala', 'Tshilidzi', ''], ['Mahola', 'Unathi', ''], ['Chakraverty', 'Snehashish', '']]",529,81,['cs.AI'],2,0,2007
+705.0199,Erik Berglund,"Erik Berglund, Joaquin Sitte",The Parameter-Less Self-Organizing Map algorithm,"29 pages, 27 figures. Based on publication in IEEE Trans. on Neural
+  Networks","IEEE Transactions on Neural Networks, 2006 v.17, n.2, pp.305-316",,,cs.NE cs.AI cs.CV,,"The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network
+algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a
+learning rate and annealing schemes for learning rate and neighbourhood size.
+We discuss the relative performance of the PLSOM and the SOM and demonstrate
+some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally
+we discuss some example applications of the PLSOM and present a proof of
+ordering under certain limited conditions.","[{'version': 'v1', 'created': 'Wed, 2 May 2007 04:04:51 GMT'}, {'version': 'v2', 'created': 'Tue, 8 May 2007 01:06:10 GMT'}]",2007-05-23,"[['Berglund', 'Erik', ''], ['Sitte', 'Joaquin', '']]",499,78,"['cs.NE', 'cs.AI', 'cs.CV']",2,0,2007
+705.0462,Nicolas Tabareau,"Paul-Andr\'e Melli\`es (PPS), Nicolas Tabareau (PPS)",Resource modalities in game semantics,,,,,math.CT cs.CL,,"The description of resources in game semantics has never achieved the
+simplicity and precision of linear logic, because of a misleading conception:
+the belief that linear logic is more primitive than game semantics. We advocate
+instead the contrary: that game semantics is conceptually more primitive than
+linear logic. Starting from this revised point of view, we design a categorical
+model of resources in game semantics, and construct an arena game model where
+the usual notion of bracketing is extended to multi- bracketing in order to
+capture various resource policies: linear, af&#64257;ne and exponential.","[{'version': 'v1', 'created': 'Thu, 3 May 2007 13:44:54 GMT'}]",2007-05-23,"[['Melliès', 'Paul-André', '', 'PPS'], ['Tabareau', 'Nicolas', '', 'PPS']]",612,93,"['math.CT', 'cs.CL']",2,0,2007
+705.0588,Edgar Graaf de,"Edgar H. de Graaf, Joost N. Kok, Walter A. Kosters",Clustering Co-occurrence of Maximal Frequent Patterns in Streams,,,,,cs.AI cs.DS,,"One way of getting a better view of data is using frequent patterns. In this
+paper frequent patterns are subsets that occur a minimal number of times in a
+stream of itemsets. However, the discovery of frequent patterns in streams has
+always been problematic. Because streams are potentially endless it is in
+principle impossible to say if a pattern is often occurring or not. Furthermore
+the number of patterns can be huge and a good overview of the structure of the
+stream is lost quickly. The proposed approach will use clustering to facilitate
+the analysis of the structure of the stream.
+  A clustering on the co-occurrence of patterns will give the user an improved
+view on the structure of the stream. Some patterns might occur so much together
+that they should form a combined pattern. In this way the patterns in the
+clustering will be the largest frequent patterns: maximal frequent patterns.
+  Our approach to decide if patterns occur often together will be based on a
+method of clustering when only the distance between pairs is known. The number
+of maximal frequent patterns is much smaller and combined with clustering
+methods these patterns provide a good view on the structure of the stream.","[{'version': 'v1', 'created': 'Fri, 4 May 2007 10:36:53 GMT'}]",2007-05-23,"[['de Graaf', 'Edgar H.', ''], ['Kok', 'Joost N.', ''], ['Kosters', 'Walter A.', '']]",1206,203,"['cs.AI', 'cs.DS']",3,0,2007
+705.0593,Edgar Graaf de,"Edgar H. de Graaf, Joost N. Kok, Walter A. Kosters",Clustering with Lattices in the Analysis of Graph Patterns,,,,,cs.AI cs.DS,,"Mining frequent subgraphs is an area of research where we have a given set of
+graphs (each graph can be seen as a transaction), and we search for (connected)
+subgraphs contained in many of these graphs. In this work we will discuss
+techniques used in our framework Lattice2SAR for mining and analysing frequent
+subgraph data and their corresponding lattice information. Lattice information
+is provided by the graph mining algorithm gSpan; it contains all
+supergraph-subgraph relations of the frequent subgraph patterns -- and their
+supports.
+  Lattice2SAR is in particular used in the analysis of frequent graph patterns
+where the graphs are molecules and the frequent subgraphs are fragments. In the
+analysis of fragments one is interested in the molecules where patterns occur.
+This data can be very extensive and in this paper we focus on a technique of
+making it better available by using the lattice information in our clustering.
+Now we can reduce the number of times the highly compressed occurrence data
+needs to be accessed by the user. The user does not have to browse all the
+occurrence data in search of patterns occurring in the same molecules. Instead
+one can directly see which frequent subgraphs are of interest.","[{'version': 'v1', 'created': 'Fri, 4 May 2007 10:52:28 GMT'}]",2007-05-23,"[['de Graaf', 'Edgar H.', ''], ['Kok', 'Joost N.', ''], ['Kosters', 'Walter A.', '']]",1228,200,"['cs.AI', 'cs.DS']",3,0,2007
+705.0693,Tshilidzi Marwala,Evan Hurwitz and Tshilidzi Marwala,Learning to Bluff,6 pages,,,,cs.AI,,"The act of bluffing confounds game designers to this day. The very nature of
+bluffing is even open for debate, adding further complication to the process of
+creating intelligent virtual players that can bluff, and hence play,
+realistically. Through the use of intelligent, learning agents, and carefully
+designed agent outlooks, an agent can in fact learn to predict its opponents
+reactions based not only on its own cards, but on the actions of those around
+it. With this wider scope of understanding, an agent can in learn to bluff its
+opponents, with the action representing not an illogical action, as bluffing is
+often viewed, but rather as an act of maximising returns through an effective
+statistical optimisation. By using a tee dee lambda learning algorithm to
+continuously adapt neural network agent intelligence, agents have been shown to
+be able to learn to bluff without outside prompting, and even to learn to call
+each others bluffs in free, competitive play.","[{'version': 'v1', 'created': 'Mon, 7 May 2007 19:15:24 GMT'}]",2007-05-23,"[['Hurwitz', 'Evan', ''], ['Marwala', 'Tshilidzi', '']]",974,159,['cs.AI'],1,0,2007
+705.0734,Sanjiang Li,Sanjiang Li and Mingsheng Ying,Soft constraint abstraction based on semiring homomorphism,"18 pages, 1 figure","Theoretical Computer Science 403(2-3) 192-201, 2008",10.1016/j.tcs.2008.03.029,,cs.AI,,"The semiring-based constraint satisfaction problems (semiring CSPs), proposed
+by Bistarelli, Montanari and Rossi \cite{BMR97}, is a very general framework of
+soft constraints. In this paper we propose an abstraction scheme for soft
+constraints that uses semiring homomorphism. To find optimal solutions of the
+concrete problem, the idea is, first working in the abstract problem and
+finding its optimal solutions, then using them to solve the concrete problem.
+  In particular, we show that a mapping preserves optimal solutions if and only
+if it is an order-reflecting semiring homomorphism. Moreover, for a semiring
+homomorphism $\alpha$ and a problem $P$ over $S$, if $t$ is optimal in
+$\alpha(P)$, then there is an optimal solution $\bar{t}$ of $P$ such that
+$\bar{t}$ has the same value as $t$ in $\alpha(P)$.","[{'version': 'v1', 'created': 'Sat, 5 May 2007 08:47:31 GMT'}]",2010-07-01,"[['Li', 'Sanjiang', ''], ['Ying', 'Mingsheng', '']]",814,125,['cs.AI'],1,1,2010
+705.076,Sujay Sanghavi,Sujay Sanghavi,"Equivalence of LP Relaxation and Max-Product for Weighted Matching in
+  General Graphs","6 pages, 2 figures",,,,cs.IT cs.AI cs.LG cs.NI math.IT,,"Max-product belief propagation is a local, iterative algorithm to find the
+mode/MAP estimate of a probability distribution. While it has been successfully
+employed in a wide variety of applications, there are relatively few
+theoretical guarantees of convergence and correctness for general loopy graphs
+that may have many short cycles. Of these, even fewer provide exact ``necessary
+and sufficient'' characterizations.
+  In this paper we investigate the problem of using max-product to find the
+maximum weight matching in an arbitrary graph with edge weights. This is done
+by first constructing a probability distribution whose mode corresponds to the
+optimal matching, and then running max-product. Weighted matching can also be
+posed as an integer program, for which there is an LP relaxation. This
+relaxation is not always tight. In this paper we show that \begin{enumerate}
+\item If the LP relaxation is tight, then max-product always converges, and
+that too to the correct answer. \item If the LP relaxation is loose, then
+max-product does not converge. \end{enumerate} This provides an exact,
+data-dependent characterization of max-product performance, and a precise
+connection to LP relaxation, which is a well-studied optimization technique.
+Also, since LP relaxation is known to be tight for bipartite graphs, our
+results generalize other recent results on using max-product to find weighted
+matchings in bipartite graphs.","[{'version': 'v1', 'created': 'Sat, 5 May 2007 18:57:47 GMT'}]",2007-07-13,"[['Sanghavi', 'Sujay', '']]",1431,213,"['cs.IT', 'cs.AI', 'cs.LG', 'cs.NI', 'math.IT']",1,0,2007
+705.0761,Tshilidzi Marwala,Tshilidzi Marwala and Bodie Crossingham,Bayesian Approach to Neuro-Rough Models,"24 pages, 5 figures, 1 table",,,,cs.AI,,"This paper proposes a neuro-rough model based on multi-layered perceptron and
+rough set. The neuro-rough model is then tested on modelling the risk of HIV
+from demographic data. The model is formulated using Bayesian framework and
+trained using Monte Carlo method and Metropolis criterion. When the model was
+tested to estimate the risk of HIV infection given the demographic data it was
+found to give the accuracy of 62%. The proposed model is able to combine the
+accuracy of the Bayesian MLP model and the transparency of Bayesian rough set
+model.","[{'version': 'v1', 'created': 'Sun, 6 May 2007 22:55:58 GMT'}, {'version': 'v2', 'created': 'Wed, 9 May 2007 04:13:04 GMT'}, {'version': 'v3', 'created': 'Tue, 28 Aug 2007 09:24:46 GMT'}]",2007-08-28,"[['Marwala', 'Tshilidzi', ''], ['Crossingham', 'Bodie', '']]",549,91,['cs.AI'],1,0,2007
+705.0969,Tshilidzi Marwala,"Ishmael S. Msiza, Fulufhelo V. Nelwamondo and Tshilidzi Marwala","Artificial Neural Networks and Support Vector Machines for Water Demand
+  Time Series Forecasting",6 pages,,,,cs.AI,,"Water plays a pivotal role in many physical processes, and most importantly
+in sustaining human life, animal life and plant life. Water supply entities
+therefore have the responsibility to supply clean and safe water at the rate
+required by the consumer. It is therefore necessary to implement mechanisms and
+systems that can be employed to predict both short-term and long-term water
+demands. The increasingly growing field of computational intelligence
+techniques has been proposed as an efficient tool in the modelling of dynamic
+phenomena. The primary objective of this paper is to compare the efficiency of
+two computational intelligence techniques in water demand forecasting. The
+techniques under comparison are the Artificial Neural Networks (ANNs) and the
+Support Vector Machines (SVMs). In this study it was observed that the ANNs
+perform better than the SVMs. This performance is measured against the
+generalisation ability of the two.","[{'version': 'v1', 'created': 'Mon, 7 May 2007 19:00:28 GMT'}]",2007-05-23,"[['Msiza', 'Ishmael S.', ''], ['Nelwamondo', 'Fulufhelo V.', ''], ['Marwala', 'Tshilidzi', '']]",946,144,['cs.AI'],2,0,2007
+705.1031,Tshilidzi Marwala,F.V. Nelwamondo and T. Marwala,"Fuzzy Artmap and Neural Network Approach to Online Processing of Inputs
+  with Missing Values",7 pages,,,,cs.AI,,"An ensemble based approach for dealing with missing data, without predicting
+or imputing the missing values is proposed. This technique is suitable for
+online operations of neural networks and as a result, is used for online
+condition monitoring. The proposed technique is tested in both classification
+and regression problems. An ensemble of Fuzzy-ARTMAPs is used for
+classification whereas an ensemble of multi-layer perceptrons is used for the
+regression problem. Results obtained using this ensemble-based technique are
+compared to those obtained using a combination of auto-associative neural
+networks and genetic algorithms and findings show that this method can perform
+up to 9% better in regression problems. Another advantage of the proposed
+technique is that it eliminates the need for finding the best estimate of the
+data, and hence, saves time.","[{'version': 'v1', 'created': 'Tue, 8 May 2007 05:12:01 GMT'}]",2007-05-23,"[['Nelwamondo', 'F. V.', ''], ['Marwala', 'T.', '']]",857,129,['cs.AI'],1,0,2007
+705.111,Edgar Graaf de,Edgar de Graaf Joost Kok Walter Kosters,Mining Patterns with a Balanced Interval,,,,,cs.AI cs.DB,,"In many applications it will be useful to know those patterns that occur with
+a balanced interval, e.g., a certain combination of phone numbers are called
+almost every Friday or a group of products are sold a lot on Tuesday and
+Thursday.
+  In previous work we proposed a new measure of support (the number of
+occurrences of a pattern in a dataset), where we count the number of times a
+pattern occurs (nearly) in the middle between two other occurrences. If the
+number of non-occurrences between two occurrences of a pattern stays almost the
+same then we call the pattern balanced.
+  It was noticed that some very frequent patterns obviously also occur with a
+balanced interval, meaning in every transaction. However more interesting
+patterns might occur, e.g., every three transactions. Here we discuss a
+solution using standard deviation and average. Furthermore we propose a simpler
+approach for pruning patterns with a balanced interval, making estimating the
+pruning threshold more intuitive.","[{'version': 'v1', 'created': 'Tue, 8 May 2007 15:22:38 GMT'}]",2007-05-23,"[['Kosters', 'Edgar de Graaf Joost Kok Walter', '']]",997,160,"['cs.AI', 'cs.DB']",1,0,2007
+705.1161,Lillian Lee,Lillian Lee,"IDF revisited: A simple new derivation within the Robertson-Sp\""arck
+  Jones probabilistic model","To appear, Proceedings of SIGIR 2007, poster paper (2 pages)",,,,cs.IR cs.CL,,"There have been a number of prior attempts to theoretically justify the
+effectiveness of the inverse document frequency (IDF). Those that take as their
+starting point Robertson and Sparck Jones's probabilistic model are based on
+strong or complex assumptions. We show that a more intuitively plausible
+assumption suffices. Moreover, the new assumption, while conceptually very
+simple, provides a solution to an estimation problem that had been deemed
+intractable by Robertson and Walker (1997).","[{'version': 'v1', 'created': 'Tue, 8 May 2007 20:08:13 GMT'}]",2007-05-23,"[['Lee', 'Lillian', '']]",494,73,"['cs.IR', 'cs.CL']",1,0,2007
+705.1209,Tshilidzi Marwala,"E. Habtemariam, T. Marwala and M. Lagazio",Artificial Intelligence for Conflict Management,20 pages,,,,cs.AI,,"Militarised conflict is one of the risks that have a significant impact on
+society. Militarised Interstate Dispute (MID) is defined as an outcome of
+interstate interactions, which result on either peace or conflict. Effective
+prediction of the possibility of conflict between states is an important
+decision support tool for policy makers. In a previous research, neural
+networks (NNs) have been implemented to predict the MID. Support Vector
+Machines (SVMs) have proven to be very good prediction techniques and are
+introduced for the prediction of MIDs in this study and compared to neural
+networks. The results show that SVMs predict MID better than NNs while NNs give
+more consistent and easy to interpret sensitivity analysis than SVMs.","[{'version': 'v1', 'created': 'Wed, 9 May 2007 05:53:30 GMT'}]",2007-05-23,"[['Habtemariam', 'E.', ''], ['Marwala', 'T.', ''], ['Lagazio', 'M.', '']]",741,116,['cs.AI'],2,0,2007
+705.1244,Marc Schoenauer,"Nicolas Godzik (INRIA Futurs, INRIA Rocquencourt), Marc Schoenauer
+  (INRIA Futurs, INRIA Rocquencourt), Mich\`ele Sebag (INRIA Futurs, LRI)",Evolving Symbolic Controllers,,"Dans 4th European Workshop on Evolutionary Robotics, 2611 (2003)
+  638-650",,,cs.AI,,"The idea of symbolic controllers tries to bridge the gap between the top-down
+manual design of the controller architecture, as advocated in Brooks'
+subsumption architecture, and the bottom-up designer-free approach that is now
+standard within the Evolutionary Robotics community. The designer provides a
+set of elementary behavior, and evolution is given the goal of assembling them
+to solve complex tasks. Two experiments are presented, demonstrating the
+efficiency and showing the recursiveness of this approach. In particular, the
+sensitivity with respect to the proposed elementary behaviors, and the
+robustness w.r.t. generalization of the resulting controllers are studied in
+detail.","[{'version': 'v1', 'created': 'Wed, 9 May 2007 09:53:31 GMT'}]",2007-05-23,"[['Godzik', 'Nicolas', '', 'INRIA Futurs, INRIA Rocquencourt'], ['Schoenauer', 'Marc', '', 'INRIA Futurs, INRIA Rocquencourt'], ['Sebag', 'Michèle', '', 'INRIA Futurs, LRI']]",689,98,['cs.AI'],6,0,2007
+705.1309,Marc Schoenauer,"Alexandre Devert (INRIA Futurs), Nicolas Bred\`eche (INRIA Futurs),
+  Marc Schoenauer (INRIA Futurs)",Robust Multi-Cellular Developmental Design,,Dans Genetic and Evolutionary Computation COnference (2007),,,cs.AI,,"This paper introduces a continuous model for Multi-cellular Developmental
+Design. The cells are fixed on a 2D grid and exchange ""chemicals"" with their
+neighbors during the growth process. The quantity of chemicals that a cell
+produces, as well as the differentiation value of the cell in the phenotype,
+are controlled by a Neural Network (the genotype) that takes as inputs the
+chemicals produced by the neighboring cells at the previous time step. In the
+proposed model, the number of iterations of the growth process is not
+pre-determined, but emerges during evolution: only organisms for which the
+growth process stabilizes give a phenotype (the stable state), others are
+declared nonviable. The optimization of the controller is done using the NEAT
+algorithm, that optimizes both the topology and the weights of the Neural
+Networks. Though each cell only receives local information from its neighbors,
+the experimental results of the proposed approach on the 'flags' problems (the
+phenotype must match a given 2D pattern) are almost as good as those of a
+direct regression approach using the same model with global information.
+Moreover, the resulting multi-cellular organisms exhibit almost perfect
+self-healing characteristics.","[{'version': 'v1', 'created': 'Wed, 9 May 2007 15:33:34 GMT'}]",2007-05-23,"[['Devert', 'Alexandre', '', 'INRIA Futurs'], ['Bredèche', 'Nicolas', '', 'INRIA Futurs'], ['Schoenauer', 'Marc', '', 'INRIA Futurs']]",1233,189,['cs.AI'],3,0,2007
+705.1585,Tshilidzi Marwala,"Unathi Mahola, Fulufhelo V. Nelwamondo, Tshilidzi Marwala","HMM Speaker Identification Using Linear and Non-linear Merging
+  Techniques",6 pages,,,,cs.LG,,"Speaker identification is a powerful, non-invasive and in-expensive biometric
+technique. The recognition accuracy, however, deteriorates when noise levels
+affect a specific band of frequency. In this paper, we present a sub-band based
+speaker identification that intends to improve the live testing performance.
+Each frequency sub-band is processed and classified independently. We also
+compare the linear and non-linear merging techniques for the sub-bands
+recognizer. Support vector machines and Gaussian Mixture models are the
+non-linear merging techniques that are investigated. Results showed that the
+sub-band based method used with linear merging techniques enormously improved
+the performance of the speaker identification over the performance of wide-band
+recognizers when tested live. A live testing improvement of 9.78% was achieved","[{'version': 'v1', 'created': 'Fri, 11 May 2007 04:54:54 GMT'}]",2007-05-23,"[['Mahola', 'Unathi', ''], ['Nelwamondo', 'Fulufhelo V.', ''], ['Marwala', 'Tshilidzi', '']]",843,115,['cs.LG'],3,0,2007
+705.1617,Daegene Song,Daegene Song,Non-Computability of Consciousness,"10 pages, 2 figures, 1 table","NeuroQuantology 5, 382 (2007).",,,quant-ph astro-ph cs.AI,,"With the great success in simulating many intelligent behaviors using
+computing devices, there has been an ongoing debate whether all conscious
+activities are computational processes. In this paper, the answer to this
+question is shown to be no. A certain phenomenon of consciousness is
+demonstrated to be fully represented as a computational process using a quantum
+computer. Based on the computability criterion discussed with Turing machines,
+the model constructed is shown to necessarily involve a non-computable element.
+The concept that this is solely a quantum effect and does not work for a
+classical case is also discussed.","[{'version': 'v1', 'created': 'Fri, 11 May 2007 10:16:48 GMT'}]",2011-11-09,"[['Song', 'Daegene', '']]",632,97,"['quant-ph', 'astro-ph', 'cs.AI']",1,0,2011
+705.1673,Tshilidzi Marwala,"L. Mdlazi, C.J. Stander, P.S. Heyns and T. Marwala","Using artificial intelligence for data reduction in mechanical
+  engineering",6 pages,,,,cs.CE cs.AI cs.NE,,"In this paper artificial neural networks and support vector machines are used
+to reduce the amount of vibration data that is required to estimate the Time
+Domain Average of a gear vibration signal. Two models for estimating the time
+domain average of a gear vibration signal are proposed. The models are tested
+on data from an accelerated gear life test rig. Experimental results indicate
+that the required data for calculating the Time Domain Average of a gear
+vibration signal can be reduced by up to 75% when the proposed models are
+implemented.","[{'version': 'v1', 'created': 'Fri, 11 May 2007 15:49:40 GMT'}]",2007-05-23,"[['Mdlazi', 'L.', ''], ['Stander', 'C. J.', ''], ['Heyns', 'P. S.', ''], ['Marwala', 'T.', '']]",548,92,"['cs.CE', 'cs.AI', 'cs.NE']",3,0,2007
+705.1999,Camilla Schwind,Camilla Schwind (LIF),A first-order Temporal Logic for Actions,,,,,cs.AI cs.LO,,"We present a multi-modal action logic with first-order modalities, which
+contain terms which can be unified with the terms inside the subsequent
+formulas and which can be quantified. This makes it possible to handle
+simultaneously time and states. We discuss applications of this language to
+action theory where it is possible to express many temporal aspects of actions,
+as for example, beginning, end, time points, delayed preconditions and results,
+duration and many others. We present tableaux rules for a decidable fragment of
+this logic.","[{'version': 'v1', 'created': 'Mon, 14 May 2007 18:36:25 GMT'}]",2007-05-23,"[['Schwind', 'Camilla', '', 'LIF']]",543,84,"['cs.AI', 'cs.LO']",1,0,2007
+705.2011,Alex Graves,"Alex Graves, Santiago Fernandez, Juergen Schmidhuber",Multi-Dimensional Recurrent Neural Networks,"10 pages, 10 figures",,,04-07,cs.AI cs.CV,,"Recurrent neural networks (RNNs) have proved effective at one dimensional
+sequence learning tasks, such as speech and online handwriting recognition.
+Some of the properties that make RNNs suitable for such tasks, for example
+robustness to input warping, and the ability to access contextual information,
+are also desirable in multidimensional domains. However, there has so far been
+no direct way of applying RNNs to data with more than one spatio-temporal
+dimension. This paper introduces multi-dimensional recurrent neural networks
+(MDRNNs), thereby extending the potential applicability of RNNs to vision,
+video processing, medical imaging and many other areas, while avoiding the
+scaling problems that have plagued other multi-dimensional models. Experimental
+results are provided for two image segmentation tasks.","[{'version': 'v1', 'created': 'Mon, 14 May 2007 19:49:56 GMT'}]",2007-05-23,"[['Graves', 'Alex', ''], ['Fernandez', 'Santiago', ''], ['Schmidhuber', 'Juergen', '']]",818,115,"['cs.AI', 'cs.CV']",3,0,2007
+705.2235,Tshilidzi Marwala,"S. Chakraverty, T. Marwala, Pallavi Gupta and Thando Tettey","Response Prediction of Structural System Subject to Earthquake Motions
+  using Artificial Neural Network",18 pages,,,,cs.AI,,"This paper uses Artificial Neural Network (ANN) models to compute response of
+structural system subject to Indian earthquakes at Chamoli and Uttarkashi
+ground motion data. The system is first trained for a single real earthquake
+data. The trained ANN architecture is then used to simulate earthquakes with
+various intensities and it was found that the predicted responses given by ANN
+model are accurate for practical purposes. When the ANN is trained by a part of
+the ground motion data, it can also identify the responses of the structural
+system well. In this way the safeness of the structural systems may be
+predicted in case of future earthquakes without waiting for the earthquake to
+occur for the lessons. Time period and the corresponding maximum response of
+the building for an earthquake has been evaluated, which is again trained to
+predict the maximum response of the building at different time periods. The
+trained time period versus maximum response ANN model is also tested for real
+earthquake data of other place, which was not used in the training and was
+found to be in good agreement.","[{'version': 'v1', 'created': 'Tue, 15 May 2007 20:29:06 GMT'}]",2007-05-23,"[['Chakraverty', 'S.', ''], ['Marwala', 'T.', ''], ['Gupta', 'Pallavi', ''], ['Tettey', 'Thando', '']]",1104,183,['cs.AI'],3,0,2007
+705.2236,Tshilidzi Marwala,"Tshilidzi Marwala, Thando Tettey and Snehashish Chakraverty","Fault Classification using Pseudomodal Energies and Neuro-fuzzy
+  modelling","8 pages, In Proceedings of the Asia-Pacific Workshop on Structural
+  Health Monitoring, Yokohama, Japan, 2006",,,,cs.AI,,"This paper presents a fault classification method which makes use of a
+Takagi-Sugeno neuro-fuzzy model and Pseudomodal energies calculated from the
+vibration signals of cylindrical shells. The calculation of Pseudomodal
+Energies, for the purposes of condition monitoring, has previously been found
+to be an accurate method of extracting features from vibration signals. This
+calculation is therefore used to extract features from vibration signals
+obtained from a diverse population of cylindrical shells. Some of the cylinders
+in the population have faults in different substructures. The pseudomodal
+energies calculated from the vibration signals are then used as inputs to a
+neuro-fuzzy model. A leave-one-out cross-validation process is used to test the
+performance of the model. It is found that the neuro-fuzzy model is able to
+classify faults with an accuracy of 91.62%, which is higher than the previously
+used multilayer perceptron.","[{'version': 'v1', 'created': 'Tue, 15 May 2007 20:34:05 GMT'}]",2007-05-23,"[['Marwala', 'Tshilidzi', ''], ['Tettey', 'Thando', ''], ['Chakraverty', 'Snehashish', '']]",941,139,['cs.AI'],2,0,2007
+705.2305,Tshilidzi Marwala,"Sizwe M. Dhlamini, Tshilidzi Marwala, and Thokozani Majozi",Fuzzy and Multilayer Perceptron for Evaluation of HV Bushings,7 pages,,,,cs.AI cs.NE,,"The work proposes the application of fuzzy set theory (FST) to diagnose the
+condition of high voltage bushings. The diagnosis uses dissolved gas analysis
+(DGA) data from bushings based on IEC60599 and IEEE C57-104 criteria for oil
+impregnated paper (OIP) bushings. FST and neural networks are compared in terms
+of accuracy and computational efficiency. Both FST and NN simulations were able
+to diagnose the bushings condition with 10% error. By using fuzzy theory, the
+maintenance department can classify bushings and know the extent of degradation
+in the component.","[{'version': 'v1', 'created': 'Wed, 16 May 2007 09:06:19 GMT'}]",2007-05-23,"[['Dhlamini', 'Sizwe M.', ''], ['Marwala', 'Tshilidzi', ''], ['Majozi', 'Thokozani', '']]",566,88,"['cs.AI', 'cs.NE']",3,0,2007
+705.2307,Tshilidzi Marwala,"Bradley van Aardt, Tshilidzi Marwala",A Study in a Hybrid Centralised-Swarm Agent Community,6 pages,,,,cs.NE cs.AI,,"This paper describes a systems architecture for a hybrid Centralised/Swarm
+based multi-agent system. The issue of local goal assignment for agents is
+investigated through the use of a global agent which teaches the agents
+responses to given situations. We implement a test problem in the form of a
+Pursuit game, where the Multi-Agent system is a set of captor agents. The
+agents learn solutions to certain board positions from the global agent if they
+are unable to find a solution. The captor agents learn through the use of
+multi-layer perceptron neural networks. The global agent is able to solve board
+positions through the use of a Genetic Algorithm. The cooperation between
+agents and the results of the simulation are discussed here. .","[{'version': 'v1', 'created': 'Wed, 16 May 2007 09:12:09 GMT'}]",2007-05-23,"[['van Aardt', 'Bradley', ''], ['Marwala', 'Tshilidzi', '']]",742,122,"['cs.NE', 'cs.AI']",2,0,2007
+705.231,Tshilidzi Marwala,"C.B. Vilakazi, T. Marwala, P. Mautla and E. Moloto",On-Line Condition Monitoring using Computational Intelligence,8 pages,,,,cs.AI,,"This paper presents bushing condition monitoring frameworks that use
+multi-layer perceptrons (MLP), radial basis functions (RBF) and support vector
+machines (SVM) classifiers. The first level of the framework determines if the
+bushing is faulty or not while the second level determines the type of fault.
+The diagnostic gases in the bushings are analyzed using the dissolve gas
+analysis. MLP gives superior performance in terms of accuracy and training time
+than SVM and RBF. In addition, an on-line bushing condition monitoring
+approach, which is able to adapt to newly acquired data are introduced. This
+approach is able to accommodate new classes that are introduced by incoming
+data and is implemented using an incremental learning algorithm that uses MLP.
+The testing results improved from 67.5% to 95.8% as new data were introduced
+and the testing results improved from 60% to 95.3% as new conditions were
+introduced. On average the confidence value of the framework on its decision
+was 0.92.","[{'version': 'v1', 'created': 'Wed, 16 May 2007 09:19:00 GMT'}]",2007-05-23,"[['Vilakazi', 'C. B.', ''], ['Marwala', 'T.', ''], ['Mautla', 'P.', ''], ['Moloto', 'E.', '']]",998,157,['cs.AI'],3,0,2007
+705.2318,Seiji Miyoshi,"Hideto Utsumi, Seiji Miyoshi, Masato Okada","Statistical Mechanics of Nonlinear On-line Learning for Ensemble
+  Teachers","13 pages, 9 figures",,10.1143/JPSJ.76.114001,,cs.LG cond-mat.dis-nn,,"We analyze the generalization performance of a student in a model composed of
+nonlinear perceptrons: a true teacher, ensemble teachers, and the student. We
+calculate the generalization error of the student analytically or numerically
+using statistical mechanics in the framework of on-line learning. We treat two
+well-known learning rules: Hebbian learning and perceptron learning. As a
+result, it is proven that the nonlinear model shows qualitatively different
+behaviors from the linear model. Moreover, it is clarified that Hebbian
+learning and perceptron learning show qualitatively different behaviors from
+each other. In Hebbian learning, we can analytically obtain the solutions. In
+this case, the generalization error monotonically decreases. The steady value
+of the generalization error is independent of the learning rate. The larger the
+number of teachers is and the more variety the ensemble teachers have, the
+smaller the generalization error is. In perceptron learning, we have to
+numerically obtain the solutions. In this case, the dynamical behaviors of the
+generalization error are non-monotonic. The smaller the learning rate is, the
+larger the number of teachers is; and the more variety the ensemble teachers
+have, the smaller the minimum value of the generalization error is.","[{'version': 'v1', 'created': 'Wed, 16 May 2007 09:58:39 GMT'}]",2009-11-13,"[['Utsumi', 'Hideto', ''], ['Miyoshi', 'Seiji', ''], ['Okada', 'Masato', '']]",1296,193,"['cs.LG', 'cond-mat.dis-nn']",3,1,2009
+705.2485,Bodie Crossingham,Bodie Crossingham and Tshilidzi Marwala,"Using Genetic Algorithms to Optimise Rough Set Partition Sizes for HIV
+  Data Analysis","10 pages, 1 figure, Update Bibliography",,,,cs.NE cs.AI q-bio.QM,,"In this paper, we present a method to optimise rough set partition sizes, to
+which rule extraction is performed on HIV data. The genetic algorithm
+optimisation technique is used to determine the partition sizes of a rough set
+in order to maximise the rough sets prediction accuracy. The proposed method is
+tested on a set of demographic properties of individuals obtained from the
+South African antenatal survey. Six demographic variables were used in the
+analysis, these variables are; race, age of mother, education, gravidity,
+parity, and age of father, with the outcome or decision being either HIV
+positive or negative. Rough set theory is chosen based on the fact that it is
+easy to interpret the extracted rules. The prediction accuracy of equal width
+bin partitioning is 57.7% while the accuracy achieved after optimising the
+partitions is 72.8%. Several other methods have been used to analyse the HIV
+data and their results are stated and compared to that of rough set theory
+(RST).","[{'version': 'v1', 'created': 'Thu, 17 May 2007 07:02:23 GMT'}]",2007-06-25,"[['Crossingham', 'Bodie', ''], ['Marwala', 'Tshilidzi', '']]",992,163,"['cs.NE', 'cs.AI', 'q-bio.QM']",1,0,2007
+705.2516,Tshilidzi Marwala,"Sizwe M. Dhlamini*, Fulufhelo V. Nelwamondo**, Tshilidzi Marwala**","Condition Monitoring of HV Bushings in the Presence of Missing Data
+  Using Evolutionary Computing",7 pages,,,,cs.NE cs.AI,,"The work proposes the application of neural networks with particle swarm
+optimisation (PSO) and genetic algorithms (GA) to compensate for missing data
+in classifying high voltage bushings. The classification is done using DGA data
+from 60966 bushings based on IEEEc57.104, IEC599 and IEEE production rates
+methods for oil impregnated paper (OIP) bushings. PSO and GA were compared in
+terms of accuracy and computational efficiency. Both GA and PSO simulations
+were able to estimate missing data values to an average 95% accuracy when only
+one variable was missing. However PSO rapidly deteriorated to 66% accuracy with
+two variables missing simultaneously, compared to 84% for GA. The data
+estimated using GA was found to classify the conditions of bushings than the
+PSO.","[{'version': 'v1', 'created': 'Thu, 17 May 2007 11:33:34 GMT'}]",2007-05-23,"[['Dhlamini*', 'Sizwe M.', ''], ['Nelwamondo**', 'Fulufhelo V.', ''], ['Marwala**', 'Tshilidzi', '']]",771,120,"['cs.NE', 'cs.AI']",3,0,2007
+705.2765,Rustem Takhanov,Rustem Takhanov,On the monotonization of the training set,10 pages,,,,cs.LG cs.AI,,"We consider the problem of minimal correction of the training set to make it
+consistent with monotonic constraints. This problem arises during analysis of
+data sets via techniques that require monotone data. We show that this problem
+is NP-hard in general and is equivalent to finding a maximal independent set in
+special orgraphs. Practically important cases of that problem considered in
+detail. These are the cases when a partial order given on the replies set is a
+total order or has a dimension 2. We show that the second case can be reduced
+to maximization of a quadratic convex function on a convex set. For this case
+we construct an approximate polynomial algorithm based on convex optimization.","[{'version': 'v1', 'created': 'Fri, 18 May 2007 19:44:19 GMT'}]",2007-05-23,"[['Takhanov', 'Rustem', '']]",703,117,"['cs.LG', 'cs.AI']",1,0,2007
+705.336,Kyriakos Sgarbas,Kyriakos N. Sgarbas,The Road to Quantum Artificial Intelligence,"9 pages. Presented at PCI-2007: 11th Panhellenic Conference in
+  Informatics, 18-20 May 2007, Patras, Greece","In: T.S.Papatheodorou, D.N.Christodoulakis and N.N.Karanikolas
+  (eds), ""Current Trends in Informatics"", Vol.A, pp.469-477, New Technologies
+  Publications, Athens, 2007 (SET 978-960-89784-0-9)",,,cs.AI,,"This paper overviews the basic principles and recent advances in the emerging
+field of Quantum Computation (QC), highlighting its potential application to
+Artificial Intelligence (AI). The paper provides a very brief introduction to
+basic QC issues like quantum registers, quantum gates and quantum algorithms
+and then it presents references, ideas and research guidelines on how QC can be
+used to deal with some basic AI problems, such as search and pattern matching,
+as soon as quantum computers become widely available.","[{'version': 'v1', 'created': 'Wed, 23 May 2007 12:31:47 GMT'}]",2007-05-24,"[['Sgarbas', 'Kyriakos N.', '']]",522,80,['cs.AI'],1,0,2007
+705.3561,Lucas Bordeaux,"Lucas Bordeaux, Marco Cadoli, Toni Mancini","Generalizing Consistency and other Constraint Properties to Quantified
+  Constraints",,,,,cs.LO cs.AI,,"Quantified constraints and Quantified Boolean Formulae are typically much
+more difficult to reason with than classical constraints, because quantifier
+alternation makes the usual notion of solution inappropriate. As a consequence,
+basic properties of Constraint Satisfaction Problems (CSP), such as consistency
+or substitutability, are not completely understood in the quantified case.
+These properties are important because they are the basis of most of the
+reasoning methods used to solve classical (existentially quantified)
+constraints, and one would like to benefit from similar reasoning methods in
+the resolution of quantified constraints. In this paper, we show that most of
+the properties that are used by solvers for CSP can be generalized to
+quantified CSP. This requires a re-thinking of a number of basic concepts; in
+particular, we propose a notion of outcome that generalizes the classical
+notion of solution and on which all definitions are based. We propose a
+systematic study of the relations which hold between these properties, as well
+as complexity results regarding the decision of these properties. Finally, and
+since these problems are typically intractable, we generalize the approach used
+in CSP and propose weaker, easier to check notions based on locality, which
+allow to detect these properties incompletely but in polynomial time.","[{'version': 'v1', 'created': 'Thu, 24 May 2007 11:27:55 GMT'}]",2007-05-25,"[['Bordeaux', 'Lucas', ''], ['Cadoli', 'Marco', ''], ['Mancini', 'Toni', '']]",1360,203,"['cs.LO', 'cs.AI']",3,0,2007
+705.3766,Anton Eremeev,Anton Eremeev,On complexity of optimized crossover for binary representations,"Dagstuhl Seminar 06061 ""Theory of Evolutionary Algorithms"", 2006",,,,cs.NE cs.AI,,"We consider the computational complexity of producing the best possible
+offspring in a crossover, given two solutions of the parents. The crossover
+operators are studied on the class of Boolean linear programming problems,
+where the Boolean vector of variables is used as the solution representation.
+By means of efficient reductions of the optimized gene transmitting crossover
+problems (OGTC) we show the polynomial solvability of the OGTC for the maximum
+weight set packing problem, the minimum weight set partition problem and for
+one of the versions of the simple plant location problem. We study a connection
+between the OGTC for linear Boolean programming problem and the maximum weight
+independent set problem on 2-colorable hypergraph and prove the NP-hardness of
+several special cases of the OGTC problem in Boolean linear programming.","[{'version': 'v1', 'created': 'Fri, 25 May 2007 13:07:18 GMT'}]",2007-05-28,"[['Eremeev', 'Anton', '']]",845,129,"['cs.NE', 'cs.AI']",1,0,2007
+705.4302,"Jens Oehlschl\""agel","Jens Oehlschl\""agel",Truecluster matching,"15 pages, 2 figures. Details the matching needed for ""Truecluster:
+  robust scalable clustering with model selection"" but can also be used in
+  different contexts",,,,cs.AI,,"Cluster matching by permuting cluster labels is important in many clustering
+contexts such as cluster validation and cluster ensemble techniques. The
+classic approach is to minimize the euclidean distance between two cluster
+solutions which induces inappropriate stability in certain settings. Therefore,
+we present the truematch algorithm that introduces two improvements best
+explained in the crisp case. First, instead of maximizing the trace of the
+cluster crosstable, we propose to maximize a chi-square transformation of this
+crosstable. Thus, the trace will not be dominated by the cells with the largest
+counts but by the cells with the most non-random observations, taking into
+account the marginals. Second, we suggest a probabilistic component in order to
+break ties and to make the matching algorithm truly random on random data. The
+truematch algorithm is designed as a building block of the truecluster
+framework and scales in polynomial time. First simulation results confirm that
+the truematch algorithm gives more consistent truecluster results for unequal
+cluster sizes. Free R software is available.","[{'version': 'v1', 'created': 'Tue, 29 May 2007 21:52:17 GMT'}]",2007-05-31,"[['Oehlschlägel', 'Jens', '']]",1118,166,['cs.AI'],1,0,2007
+705.4485,Edoardo Airoldi,"Edoardo M Airoldi, David M Blei, Stephen E Fienberg, Eric P Xing",Mixed membership stochastic blockmodels,"46 pages, 14 figures, 3 tables","Journal of Machine Learning Research, 9, 1981-2014.",,,stat.ME cs.LG math.ST physics.soc-ph stat.ML stat.TH,,"Observations consisting of measurements on relationships for pairs of objects
+arise in many settings, such as protein interaction and gene regulatory
+networks, collections of author-recipient email, and social networks. Analyzing
+such data with probabilisic models can be delicate because the simple
+exchangeability assumptions underlying many boilerplate models no longer hold.
+In this paper, we describe a latent variable model of such data called the
+mixed membership stochastic blockmodel. This model extends blockmodels for
+relational data to ones which capture mixed membership latent relational
+structure, thus providing an object-specific low-dimensional representation. We
+develop a general variational inference algorithm for fast approximate
+posterior inference. We explore applications to social and protein interaction
+networks.","[{'version': 'v1', 'created': 'Wed, 30 May 2007 23:22:59 GMT'}]",2010-02-22,"[['Airoldi', 'Edoardo M', ''], ['Blei', 'David M', ''], ['Fienberg', 'Stephen E', ''], ['Xing', 'Eric P', '']]",841,111,"['stat.ME', 'cs.LG', 'math.ST', 'physics.soc-ph', 'stat.ML', 'stat.TH']",4,0,2010
+705.4566,Bastian Wemmenhove,Bastian Wemmenhove and Bert Kappen,"Loop corrections for message passing algorithms in continuous variable
+  models",,,,,cs.AI cs.LG,,"In this paper we derive the equations for Loop Corrected Belief Propagation
+on a continuous variable Gaussian model. Using the exactness of the averages
+for belief propagation for Gaussian models, a different way of obtaining the
+covariances is found, based on Belief Propagation on cavity graphs. We discuss
+the relation of this loop correction algorithm to Expectation Propagation
+algorithms for the case in which the model is no longer Gaussian, but slightly
+perturbed by nonlinear terms.","[{'version': 'v1', 'created': 'Thu, 31 May 2007 10:35:07 GMT'}]",2007-06-01,"[['Wemmenhove', 'Bastian', ''], ['Kappen', 'Bert', '']]",491,76,"['cs.AI', 'cs.LG']",1,0,2007
+705.4584,Stefan Johansson,Magnus Boman and Stefan J. Johansson,"Modeling Epidemic Spread in Synthetic Populations - Virtual Plagues in
+  Massively Multiplayer Online Games","Accepted for presentation at Digital Games Research Association
+  (DiGRA) conference in Tokyo in September 2007. All comments to the authors
+  (mail addresses are in the paper) are welcome",,,,cs.CY cs.AI cs.MA,,"A virtual plague is a process in which a behavior-affecting property spreads
+among characters in a Massively Multiplayer Online Game (MMOG). The MMOG
+individuals constitute a synthetic population, and the game can be seen as a
+form of interactive executable model for studying disease spread, albeit of a
+very special kind. To a game developer maintaining an MMOG, recognizing,
+monitoring, and ultimately controlling a virtual plague is important,
+regardless of how it was initiated. The prospect of using tools, methods and
+theory from the field of epidemiology to do this seems natural and appealing.
+We will address the feasibility of such a prospect, first by considering some
+basic measures used in epidemiology, then by pointing out the differences
+between real world epidemics and virtual plagues. We also suggest directions
+for MMOG developer control through epidemiological modeling. Our aim is
+understanding the properties of virtual plagues, rather than trying to
+eliminate them or mitigate their effects, as would be in the case of real
+infectious disease.","[{'version': 'v1', 'created': 'Thu, 31 May 2007 12:15:05 GMT'}]",2007-06-01,"[['Boman', 'Magnus', ''], ['Johansson', 'Stefan J.', '']]",1068,165,"['cs.CY', 'cs.AI', 'cs.MA']",1,0,2007
+705.4676,Daniel Lemire,Daniel Lemire and Owen Kaser,"Recursive n-gram hashing is pairwise independent, at best",See software at https://github.com/lemire/rollinghashcpp,Computer Speech & Language 24(4): 698-710 (2010),10.1016/j.csl.2009.12.001,,cs.DB cs.CL,http://creativecommons.org/licenses/by/4.0/,"Many applications use sequences of n consecutive symbols (n-grams). Hashing
+these n-grams can be a performance bottleneck. For more speed, recursive hash
+families compute hash values by updating previous values. We prove that
+recursive hash families cannot be more than pairwise independent. While hashing
+by irreducible polynomials is pairwise independent, our implementations either
+run in time O(n) or use an exponential amount of memory. As a more scalable
+alternative, we make hashing by cyclic polynomials pairwise independent by
+ignoring n-1 bits. Experimentally, we show that hashing by cyclic polynomials
+is is twice as fast as hashing by irreducible polynomials. We also show that
+randomized Karp-Rabin hash families are not pairwise independent.","[{'version': 'v1', 'created': 'Thu, 31 May 2007 18:41:28 GMT'}, {'version': 'v2', 'created': 'Mon, 8 Dec 2008 17:39:33 GMT'}, {'version': 'v3', 'created': 'Fri, 6 Feb 2009 21:37:14 GMT'}, {'version': 'v4', 'created': 'Mon, 23 Feb 2009 16:23:41 GMT'}, {'version': 'v5', 'created': 'Wed, 5 Aug 2009 03:01:20 GMT'}, {'version': 'v6', 'created': 'Wed, 19 Aug 2009 14:39:54 GMT'}, {'version': 'v7', 'created': 'Wed, 4 Jan 2012 20:37:05 GMT'}, {'version': 'v8', 'created': 'Mon, 6 Jun 2016 15:18:03 GMT'}]",2016-06-07,"[['Lemire', 'Daniel', ''], ['Kaser', 'Owen', '']]",756,111,"['cs.DB', 'cs.CL']",1,1,2016
+706.0022,Marko Antonio Rodriguez,Marko A. Rodriguez and Johan Bollen,Modeling Computations in a Semantic Network,project website: http://neno.lanl.gov,,,,cs.AI,,"Semantic network research has seen a resurgence from its early history in the
+cognitive sciences with the inception of the Semantic Web initiative. The
+Semantic Web effort has brought forth an array of technologies that support the
+encoding, storage, and querying of the semantic network data structure at the
+world stage. Currently, the popular conception of the Semantic Web is that of a
+data modeling medium where real and conceptual entities are related in
+semantically meaningful ways. However, new models have emerged that explicitly
+encode procedural information within the semantic network substrate. With these
+new technologies, the Semantic Web has evolved from a data modeling medium to a
+computational medium. This article provides a classification of existing
+computational modeling efforts and the requirements of supporting technologies
+that will aid in the further growth of this burgeoning domain.","[{'version': 'v1', 'created': 'Thu, 31 May 2007 21:56:25 GMT'}]",2021-08-23,"[['Rodriguez', 'Marko A.', ''], ['Bollen', 'Johan', '']]",914,137,['cs.AI'],1,0,2021
+706.0465,Donald Sofge,D. A. Sofge,"Virtual Sensor Based Fault Detection and Classification on a Plasma Etch
+  Reactor",7 pages,"D. Sofge, ""Virtual Sensor Based Fault Detection and Classification
+  on a Plasma Etch Reactor,"" The 2nd Joint Mexico-US Int'l. Workshop on Neural
+  Networks and Neurocontrol (poster), 1997",,,cs.AI cs.CV,,"The SEMATECH sponsored J-88-E project teaming Texas Instruments with
+NeuroDyne (et al.) focused on Fault Detection and Classification (FDC) on a Lam
+9600 aluminum plasma etch reactor, used in the process of semiconductor
+fabrication. Fault classification was accomplished by implementing a series of
+virtual sensor models which used data from real sensors (Lam Station sensors,
+Optical Emission Spectroscopy, and RF Monitoring) to predict recipe setpoints
+and wafer state characteristics. Fault detection and classification were
+performed by comparing predicted recipe and wafer state values with expected
+values. Models utilized include linear PLS, Polynomial PLS, and Neural Network
+PLS. Prediction of recipe setpoints based upon sensor data provides a
+capability for cross-checking that the machine is maintaining the desired
+setpoints. Wafer state characteristics such as Line Width Reduction and
+Remaining Oxide were estimated on-line using these same process sensors (Lam,
+OES, RFM). Wafer-to-wafer measurement of these characteristics in a production
+setting (where typically this information may be only sparsely available, if at
+all, after batch processing runs with numerous wafers have been completed)
+would provide important information to the operator that the process is or is
+not producing wafers within acceptable bounds of product quality. Production
+yield is increased, and correspondingly per unit cost is reduced, by providing
+the operator with the opportunity to adjust the process or machine before
+etching more wafers.","[{'version': 'v1', 'created': 'Mon, 4 Jun 2007 15:55:27 GMT'}]",2007-06-05,"[['Sofge', 'D. A.', '']]",1541,221,"['cs.AI', 'cs.CV']",1,0,2007
+706.0585,Zhendong Zhao,"Zhendong Zhao, Lei Yuan, Yuxuan Wang, Forrest Sheng Bao, Shunyi Zhang
+  Yanfei Sun",A Novel Model of Working Set Selection for SMO Decomposition Methods,"8 pages, 12 figures, it was submitted to IEEE International
+  conference of Tools on Artificial Intelligence",,10.1109/ICTAI.2007.99,,cs.LG cs.AI,,"In the process of training Support Vector Machines (SVMs) by decomposition
+methods, working set selection is an important technique, and some exciting
+schemes were employed into this field. To improve working set selection, we
+propose a new model for working set selection in sequential minimal
+optimization (SMO) decomposition methods. In this model, it selects B as
+working set without reselection. Some properties are given by simple proof, and
+experiments demonstrate that the proposed method is in general faster than
+existing methods.","[{'version': 'v1', 'created': 'Tue, 5 Jun 2007 05:55:07 GMT'}]",2016-11-15,"[['Zhao', 'Zhendong', ''], ['Yuan', 'Lei', ''], ['Wang', 'Yuxuan', ''], ['Bao', 'Forrest Sheng', ''], ['Sun', 'Shunyi Zhang Yanfei', '']]",540,81,"['cs.LG', 'cs.AI']",5,1,2016
+706.1001,Krzysztof R. Apt,Krzysztof R. Apt,Epistemic Analysis of Strategic Games with Arbitrary Strategy Sets,"8 pages Proc. of the 11th Conference on Theoretical Aspects of
+  Rationality and Knowledge (TARK XI), 2007. To appear",,,,cs.GT cs.AI,,"We provide here an epistemic analysis of arbitrary strategic games based on
+the possibility correspondences. Such an analysis calls for the use of
+transfinite iterations of the corresponding operators. Our approach is based on
+Tarski's Fixpoint Theorem and applies both to the notions of rationalizability
+and the iterated elimination of strictly dominated strategies.","[{'version': 'v1', 'created': 'Thu, 7 Jun 2007 12:57:21 GMT'}]",2007-06-08,"[['Apt', 'Krzysztof R.', '']]",368,53,"['cs.GT', 'cs.AI']",1,0,2007
+706.1137,Thierry Poibeau,"Amanda Bouffier (LIPN), Thierry Poibeau (LIPN)",Automatically Restructuring Practice Guidelines using the GEM DTD,,"Proceedings of Biomedical Natural Language Processing (BioNLP)
+  (2007) -",,,cs.AI,,"This paper describes a system capable of semi-automatically filling an XML
+template from free texts in the clinical domain (practice guidelines). The XML
+template includes semantic information not explicitly encoded in the text
+(pairs of conditions and actions/recommendations). Therefore, there is a need
+to compute the exact scope of conditions over text sequences expressing the
+required actions. We present a system developed for this task. We show that it
+yields good performance when applied to the analysis of French practice
+guidelines.","[{'version': 'v1', 'created': 'Fri, 8 Jun 2007 15:39:49 GMT'}]",2007-06-11,"[['Bouffier', 'Amanda', '', 'LIPN'], ['Poibeau', 'Thierry', '', 'LIPN']]",544,81,['cs.AI'],2,0,2007
+706.129,Sylviane Schwer,Sylviane R. Schwer (LIPN),Temporal Reasoning without Transitive Tables,rapport interne,,,,cs.AI,,"Representing and reasoning about qualitative temporal information is an
+essential part of many artificial intelligence tasks. Lots of models have been
+proposed in the litterature for representing such temporal information. All
+derive from a point-based or an interval-based framework. One fundamental
+reasoning task that arises in applications of these frameworks is given by the
+following scheme: given possibly indefinite and incomplete knowledge of the
+binary relationships between some temporal objects, find the consistent
+scenarii between all these objects. All these models require transitive tables
+-- or similarly inference rules-- for solving such tasks. We have defined an
+alternative model, S-languages - to represent qualitative temporal information,
+based on the only two relations of \emph{precedence} and \emph{simultaneity}.
+In this paper, we show how this model enables to avoid transitive tables or
+inference rules to handle this kind of problem.","[{'version': 'v1', 'created': 'Sat, 9 Jun 2007 06:57:05 GMT'}]",2007-06-12,"[['Schwer', 'Sylviane R.', '', 'LIPN']]",965,138,['cs.AI'],1,0,2007
